@@ -1,0 +1,51 @@
+.image-back1 {
+    background-image: url(./firstpic.png);
+    /* outline: 2px solid black; */
+    height: 400px;
+    background-repeat:  no-repeat;
+    background-size: 40rem;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: -2;
+}
+
+.image-back1 p {
+    max-width: 300px;
+    text-align: center;
+    font-size: 1.2rem
+}
+.image-back2 {
+    background-image: url(./secondpic.png);
+    height: 400px;
+    position: relative;
+    bottom: 170px;
+    left: 60px;
+    z-index: 1;
+    mix-blend-mode: multiply;
+    
+    background-repeat:  no-repeat;
+    background-size: 40rem;
+}
+
+.image-back2 p {
+    max-width: 300px;
+    
+}
+.image-back3 {
+    background-image: url(./thirdpic.png);
+    height: 400px;
+    background-repeat:  no-repeat;
+    background-size: 40rem;
+    position: relative;
+    bottom: 300px;
+    left: 60px;
+    z-index: 1;
+    mix-blend-mode: multiply;
+}
+.image-back3 p {
+    max-width: 200px;
+    
+}
